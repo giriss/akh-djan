@@ -16,7 +16,7 @@ pycclib==1.3.1
 pycrypto==2.6
 pygpgme==0.3
 python-apt==0.8.5
-python-debian==0.1.21-nmu2ubuntu1
+python-debian==0.1.21
 requests==1.1.0
 simplejson==2.6.2
 six==1.2.0
