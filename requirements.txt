@@ -1,5 +1,4 @@
 Django==1.5.4
-apt-xapian-index==0.45
 argparse==1.2.1
 bzr==2.6.0dev3
 cctrl==1.7.1
