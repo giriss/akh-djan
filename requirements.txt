@@ -1,7 +1,6 @@
 Django==1.5.4
 argparse==1.2.1
 cctrl==1.7.1
-chardet==2.0.1
 configobj==4.7.2
 distribute==0.6.34
 gunicorn==0.15.0
