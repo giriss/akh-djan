@@ -7,7 +7,7 @@ from django.conf.urls import patterns, include, url
 urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'welcome.views.index', name='index'),
-    # url(r'^helloworld/', include('helloworld.foo.urls')),
+    url(r'^learn/', include('learn.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
