@@ -5,3 +5,7 @@ from django.http import HttpResponse
 def lesson1(request, name="Akh"):
     ret = "Is it " + name
     return HttpResponse(ret)
+    
+def lesson2(request):
+    ret = "Lesson2"
+    return HttpResponse(ret)
