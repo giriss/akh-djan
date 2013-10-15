@@ -8,7 +8,7 @@ def lesson1(request, name="Akh"):
     return HttpResponse(ret)
     
 def lesson2(request):
-    name = request.post['name']
+    name = request.POST['name']
     ret = "! " + name
     return HttpResponse(ret)
 lesson2 = csrf_exempt(lesson2)
