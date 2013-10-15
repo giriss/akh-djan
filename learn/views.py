@@ -7,5 +7,6 @@ def lesson1(request, name="Akh"):
     return HttpResponse(ret)
     
 def lesson2(request):
-    ret = "Lesson2"
+    name = request.post['name']
+    ret = "! " + name
     return HttpResponse(ret)
