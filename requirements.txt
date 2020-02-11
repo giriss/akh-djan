@@ -1,4 +1,4 @@
-Django==1.5.4
+Django==1.11.28
 argparse==1.2.1
 bzr==2.6.0
 cctrl==1.7.1
